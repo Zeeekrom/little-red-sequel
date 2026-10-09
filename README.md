@@ -25,6 +25,7 @@ This repository holds the showcase material: the demo video, screenshots, produc
 - [How the project was run](#how-the-project-was-run)
 - [What is not finished](#what-is-not-finished)
 - [What I took from it](#what-i-took-from-it)
+- [Third-party work](#third-party-work)
 - [Tools](#tools)
 
 ## At a glance
@@ -36,7 +37,7 @@ This repository holds the showcase material: the demo video, screenshots, produc
 | Themes | Refusing a life someone else wrote, thinking for yourself, bullying, living inside a filter bubble |
 | Engine | Unreal Engine 5.3 |
 | Team | Solo, about three months: two of pre-production, one of assembly |
-| Scale | About 199 asset sets (124 3D, 75 2D), three gameplay systems, 20 reference games reviewed |
+| Scale | About 199 asset sets (124 3D, 75 2D), three gameplay systems joined into one game, 20 reference games reviewed |
 | Status | Playable demo. Part of the planned story is in |
 
 ## The game
@@ -156,7 +157,7 @@ Niagara effects: fireflies, smoke and fire.
 
 ## Programming
 
-Most gameplay logic is Blueprint. The quest and dialogue systems are C++ classes exposed to Blueprint.
+Most gameplay logic is Blueprint. The quest system, the dialogue system and the main menu each started from a different Unreal Marketplace product: two C++ plugins and a menu asset. They were not made to work together, so a large part of the programming was modifying them and joining them into one game.
 
 | | |
 |---|---|
@@ -169,15 +170,14 @@ Most gameplay logic is Blueprint. The quest and dialogue systems are C++ classes
 
 Menus are in Chinese and story text is in English. See [What is not finished](#what-is-not-finished).
 
-- **Quest system.** C++ classes with a node-based quest editor: several quest types, completion conditions and an on-screen tracker.
-- **Dialogue system.** C++ classes with a node-based editor for branching dialogue, linked to the quest system.
-- **Main menu and saves.** New game, continue and load. Saving and loading use Blueprint classes, interfaces, structs and data tables. Graphics and audio settings go through Unreal's settings API. The UI is built in UMG.
-- **Player.** A controller that stores and restores position and quest state, plus an animation Blueprint for sprite movement.
-- **Interaction.** One Blueprint handles the "walk up and press the key" prompt for dialogue, quests, scene changes and hidden values.
+- **Quest system.** Based on a Marketplace quest plugin: C++ classes with a node-based quest editor, several quest types, completion conditions and an on-screen tracker. I modified it for this game and wrote the quests in its editor.
+- **Dialogue system.** Based on a different Marketplace plugin with a node-based editor for branching dialogue. I modified it and joined it to the quest system.
+- **Main menu and saves.** Based on a Marketplace menu asset: new game, continue, load, and graphics and audio settings through Unreal's settings API, with UMG screens. I modified it and connected it to the other two systems.
+- **Player.** My own Blueprint that handles movement and stores and restores position and quest state, plus an animation Blueprint for sprite movement.
+- **Interaction.** One Blueprint of my own handles the "walk up and press the key" prompt for dialogue, quests, scene changes and hidden values.
 - **Tested in isolation first.** Each system was built and tried in a small test project before it was moved into the game.
-- **Reuse.** The menu and save systems are self-contained and can be moved into another project.
 
-ChatGPT helped draft parts of the C++ headers and some Blueprint logic, and helped me iterate on story text. I corrected and integrated the results by hand. How far AI tools could help a solo developer was one of the questions the thesis set out to answer.
+ChatGPT helped with parts of the C++ header changes and some Blueprint logic, and helped me iterate on story text. I corrected and integrated the results by hand. How far AI tools could help a solo developer was one of the questions the thesis set out to answer.
 
 ## Research before design
 
@@ -209,6 +209,16 @@ ChatGPT helped draft parts of the C++ headers and some Blueprint logic, and help
 - Studio habits scale down. Requirements, a schedule, version control and technical tests were as useful for one person as for a team.
 - AI tools covered some of my gaps in design and programming and sped up texture work. They did not remove the need to check and fix what they produced.
 - I deliberately spent less time on traditional art and more on technical art and programming. That shift is why I went on to study software engineering.
+
+## Third-party work
+
+- **Quest and dialogue systems.** Two Unreal Marketplace plugins, modified and combined.
+- **Main menu, settings and save screens.** An Unreal Marketplace asset, modified.
+- **Sprite animation.** The PaperZD plugin.
+- **Texture generation.** Stable Diffusion with community pixel-art LoRAs and a pixel-style SDXL base model.
+- **Music and sound effects.** Not mine. Most are CC0.
+
+The story, the design documents, the environment, the asset library, the materials and effects, and the Blueprint logic that ties the systems together are my own work, with AI assistance where noted.
 
 ## Tools
 
