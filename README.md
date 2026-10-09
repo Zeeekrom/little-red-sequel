@@ -1,4 +1,6 @@
-# Little Red: Sequel (小红帽：后传)
+# Little Red: Sequel
+
+**English** | [中文](README.zh-CN.md)
 
 A story-driven RPG demo made in Unreal Engine 5, with 2D pixel characters walking through 3D scenes that use pixel-art textures. I built it on my own in about three months as my 2024 graduation project (Associate Degree in Digital Media Technology, Nanhu College, Shanghai).
 
@@ -97,15 +99,11 @@ Unreal Engine 5.3, Visual Studio 2022, Maya 2024, Blender 4.1, RizomUV, Houdini 
 
 <img src="media/poster.jpg" alt="Graduation exhibition poster" width="520">
 
-The poster was made for the 2024 graduation exhibition. Contact details and student information on the original have been removed.
+The poster was made for the 2024 graduation exhibition and is mostly in Chinese. Contact details and student information on the original have been removed.
 
 ## Thesis
 
 The project was submitted with a thesis written in Chinese: *Innovative Applications of Digital Media Technology in the Game Industry: The Case of Indie Games* (May 2024). It is not published here.
-
-## 中文简介
-
-《小红帽：后传》是我 2024 年的专科毕业设计，一个人用约三个月完成的叙事向 RPG 游戏 Demo。游戏改编自童话《小红帽》，以非线性叙事、隐藏数值和多结局为核心，采用"2D 像素角色 + 3D 像素场景"的美术风格，使用 Unreal Engine 5.3 开发。任务系统和对话系统由 C++ 类配合蓝图实现，美术贴图流程中使用了 Stable Diffusion。本仓库只包含演示视频、截图和海报。
 
 ## Rights and contact
 
