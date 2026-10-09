@@ -99,7 +99,7 @@ Unreal Engine 5.3, Visual Studio 2022, Maya 2024, Blender 4.1, RizomUV, Houdini 
 
 <img src="media/poster.jpg" alt="Graduation exhibition poster" width="520">
 
-The poster was made for the 2024 graduation exhibition and is mostly in Chinese. Contact details and student information on the original have been removed.
+This is the English version of the poster made for the 2024 graduation exhibition. Contact details on the original have been removed.
 
 ## Thesis
 

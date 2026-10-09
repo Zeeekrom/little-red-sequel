@@ -97,7 +97,7 @@ Unreal Engine 5.3、Visual Studio 2022、Maya 2024、Blender 4.1、RizomUV、Hou
 
 ## 海报
 
-<img src="media/poster.jpg" alt="毕业设计展海报" width="520">
+<img src="media/poster.zh-CN.jpg" alt="毕业设计展海报" width="520">
 
 海报是为 2024 年毕业设计展制作的。原图上的联系方式和学生信息已经去掉。
 
