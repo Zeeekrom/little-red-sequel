@@ -25,6 +25,7 @@ This repository holds the showcase material: the demo video, screenshots, produc
 - [How the project was run](#how-the-project-was-run)
 - [What is not finished](#what-is-not-finished)
 - [What I took from it](#what-i-took-from-it)
+- [What carries over to simulation and visualisation](#what-carries-over-to-simulation-and-visualisation)
 - [Third-party work](#third-party-work)
 - [Tools](#tools)
 
@@ -36,6 +37,7 @@ This repository holds the showcase material: the demo video, screenshots, produc
 | Tone | A dark fairy tale that starts bleak and ends hopeful |
 | Themes | Refusing a life someone else wrote, thinking for yourself, bullying, living inside a filter bubble |
 | Engine | Unreal Engine 5.3 |
+| Environment | An island and a village built by hand: sculpted terrain, a layer-blended landscape material, baked lighting, height fog, light shafts and Niagara effects |
 | Team | Solo, about three months: two of pre-production, one of assembly |
 | Scale | About 199 asset sets (124 3D, 75 2D), three gameplay systems joined into one game, 20 reference games reviewed |
 | Status | Playable demo. Part of the planned story is in |
@@ -209,6 +211,17 @@ ChatGPT helped with parts of the C++ header changes and some Blueprint logic, an
 - Studio habits scale down. Requirements, a schedule, version control and technical tests were as useful for one person as for a team.
 - AI tools covered some of my gaps in design and programming and sped up texture work. They did not remove the need to check and fix what they produced.
 - I deliberately spent less time on traditional art and more on technical art and programming. That shift is why I went on to study software engineering.
+
+## What carries over to simulation and visualisation
+
+This is a fairy-tale game, but several parts of the work are the same ones a simulation or visualisation scene needs:
+
+- **A place built to match a map.** The map came first, then a white-box, then terrain sculpted to the map, then the finished scene. The order of work would be the same with a chart or a site plan as the reference.
+- **Light and atmosphere decide what can be seen.** Baked lighting, a sky light, exponential height fog, volumetric light shafts and post-process volumes set how far the player can see and what stands out, in night exteriors and in lamp-lit interiors.
+- **Materials made to be reused.** One layer-blended landscape material, a material instance with exposed controls for every asset, and foliage that moves in the wind.
+- **An asset pipeline that is tracked.** About 199 asset sets went through the same steps: naming rules, a tracking sheet and a review render before they entered the engine.
+- **Performance settings in the user's hands.** The settings screen, based on a modified Marketplace menu asset, exposes resolution, window mode, frame rate and quality presets through Unreal's settings API.
+- **Making separate systems work as one.** Two C++ plugins and a menu asset that were not written to work together were modified and joined, and each was tested in a small project first.
 
 ## Third-party work
 
