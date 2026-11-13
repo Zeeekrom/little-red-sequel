@@ -6,7 +6,7 @@ A story-driven RPG demo made in Unreal Engine 5, with 2D pixel characters walkin
 
 ![Gameplay preview](media/preview.gif)
 
-**[Watch the full demo video](media/little-red-sequel-demo.mp4)** (6 min 35 s) · [download the MP4](https://github.com/Zeeekrom/little-red-sequel/raw/main/media/little-red-sequel-demo.mp4)
+**[Watch the full demo video](https://zeeekrom.github.io/little-red-sequel/film/)** (6 min 35 s) · [download the MP4](https://github.com/Zeeekrom/little-red-sequel/raw/main/media/little-red-sequel-demo.mp4)
 
 This repository holds the showcase material: the demo video, screenshots, production images and the exhibition poster. The Unreal project and the written thesis are not included.
 
