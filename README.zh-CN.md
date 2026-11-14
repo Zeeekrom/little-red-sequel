@@ -10,7 +10,7 @@
 
 ![游戏预览](media/preview.gif)
 
-**[观看完整游戏演示](https://github.com/Zeeekrom/little-red-sequel/raw/main/media/little-red-sequel-demo.mp4)**（6 分 35 秒，MP4）
+**[观看完整游戏演示](https://zeeekrom.github.io/little-red-sequel/media/little-red-sequel-demo.mp4)**（6 分 35 秒，MP4）
 
 本仓库只包含展示材料：演示视频、截图、制作过程图和展览海报。Unreal 工程文件和毕业论文不在其中。
 
