@@ -4,9 +4,13 @@
 
 一款用 Unreal Engine 5 制作的叙事向 RPG 游戏 Demo：2D 像素角色行走在使用像素贴图的 3D 场景里。这是我 2024 年的专科毕业设计（数字媒体技术专业，上海南湖数字创意系），一个人用大约三个月完成。
 
+<a href="https://zeeekrom.github.io/little-red-sequel/film/"><img src="film/preview.jpg" alt="播放《小红帽：后传》3 分钟项目介绍片" width="640"></a>
+
+**介绍片：** [观看 3 分钟项目介绍片](https://zeeekrom.github.io/little-red-sequel/film/)（3 分 15 秒）：游戏从哪个童话出发、改了什么、分支剧情怎么设计，以及一个人怎样靠 AI 美术工作流、改造并拼合现成插件把它做完。英文旁白（合成语音）带字幕，像素窗口里是真实游戏画面。
+
 ![游戏预览](media/preview.gif)
 
-**[观看完整演示视频](https://zeeekrom.github.io/little-red-sequel/film/)**（6 分 35 秒）· [下载 MP4](https://github.com/Zeeekrom/little-red-sequel/raw/main/media/little-red-sequel-demo.mp4)
+**[观看完整游戏演示](https://github.com/Zeeekrom/little-red-sequel/raw/main/media/little-red-sequel-demo.mp4)**（6 分 35 秒，MP4）
 
 本仓库只包含展示材料：演示视频、截图、制作过程图和展览海报。Unreal 工程文件和毕业论文不在其中。
 

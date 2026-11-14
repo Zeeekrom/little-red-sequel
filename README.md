@@ -4,9 +4,13 @@
 
 A story-driven RPG demo made in Unreal Engine 5, with 2D pixel characters walking through 3D scenes that use pixel-art textures. I built it on my own in about three months as my 2024 graduation project (Associate Degree in Digital Media Technology, Nanhu College, Shanghai).
 
+<a href="https://zeeekrom.github.io/little-red-sequel/film/"><img src="film/preview.jpg" alt="Play the 3-minute project film of Little Red: Sequel" width="640"></a>
+
+**Film:** [watch the 3-minute project film](https://zeeekrom.github.io/little-red-sequel/film/) (3 min 15 s): the fairy tale the game starts from, what it changes, the branching design, and how one person finished it with an AI art workflow and existing plugins changed and joined into one loop. English narration (synthetic voice) with captions, real gameplay in the pixel windows.
+
 ![Gameplay preview](media/preview.gif)
 
-**[Watch the full demo video](https://zeeekrom.github.io/little-red-sequel/film/)** (6 min 35 s) · [download the MP4](https://github.com/Zeeekrom/little-red-sequel/raw/main/media/little-red-sequel-demo.mp4)
+**[Watch the full gameplay demo](https://github.com/Zeeekrom/little-red-sequel/raw/main/media/little-red-sequel-demo.mp4)** (6 min 35 s, MP4)
 
 This repository holds the showcase material: the demo video, screenshots, production images and the exhibition poster. The Unreal project and the written thesis are not included.
 
