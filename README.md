@@ -260,7 +260,7 @@ This is a fairy-tale game, but several parts of the work are the same ones a sim
 
 ## Copyright and terms
 
-© 2024 Little Red: Sequel. All rights reserved; see [LICENSE](LICENSE). The film, demo video, screenshots, production images, poster, story and writing in this repository, and the game's own design, may not be republished, copied or adapted without written permission. Sharing links is welcome. The story, the design documents, the environment, the asset library, the materials and effects, and the Blueprint logic that ties the systems together are my own work, with AI assistance where noted. Third-party parts keep their own licence:
+© 2024 Little Red: Sequel. All rights reserved; see [LICENSE](LICENSE). Without written permission, nothing in this repository may be copied, republished or adapted, and the project's code and design may not be rebuilt, whether by hand, with automated tools or with AI cloning tools. The code may not be reverse engineered except where the law allows, and the content may not be scraped, bulk-downloaded or used to train or evaluate AI models. Uses the law already allows, such as fair dealing for review or news reporting, are not affected. Sharing links is welcome. The story, the design documents, the environment, the asset library, the materials and effects, and the Blueprint logic that ties the systems together are my own work, with AI assistance where noted. Third-party parts keep their own licence:
 
 - Quest and dialogue systems: two Unreal Marketplace plugins, modified and combined. Main menu, settings and save screens: an Unreal Marketplace asset, modified. These and Unreal Engine are used under Epic Games' licence terms.
 - Sprite animation: the PaperZD plugin.
