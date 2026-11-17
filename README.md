@@ -27,7 +27,7 @@ This repository holds showcase material only: the project film, the gameplay dem
 **Project film:** [watch the 3-minute film](https://zeeekrom.github.io/little-red-sequel/film/)
 — 3 min 15 s: the fairy tale the game starts from, what it changes, the branching design, and how one person finished it with an AI art workflow and existing plugins changed and joined into one loop. English narration (synthetic voice) with captions; the pixel windows show real gameplay.
 
-**Gameplay demo:** [watch the full demo](https://zeeekrom.github.io/little-red-sequel/media/little-red-sequel-demo.mp4)
+**Gameplay demo:** [watch the full demo](https://zeeekrom.github.io/little-red-sequel/demo/)
 — 6 min 35 s of gameplay, MP4. Its music and sound effects are by other creators; most are CC0.
 
 **Poster:** [open the poster](media/poster.jpg)
@@ -260,7 +260,7 @@ This is a fairy-tale game, but several parts of the work are the same ones a sim
 
 ## Copyright and terms
 
-© 2024 Little Red: Sequel. All rights reserved; see [LICENSE](LICENSE). Without written permission, nothing in this repository may be copied, republished or adapted, and the project's code and design may not be rebuilt, whether by hand, with automated tools or with AI cloning tools. The code may not be reverse engineered except where the law allows, and the content may not be scraped, bulk-downloaded or used to train or evaluate AI models. Uses the law already allows, such as fair dealing for review or news reporting, are not affected. Sharing links is welcome. The story, the design documents, the environment, the asset library, the materials and effects, and the Blueprint logic that ties the systems together are my own work, with AI assistance where noted. Third-party parts keep their own licence:
+© 2024–2026 Little Red: Sequel. All rights reserved; see [LICENSE](LICENSE). Without written permission, nothing in this repository may be copied, republished or adapted, and the project's code and design may not be rebuilt, whether by hand, with automated tools or with AI cloning tools. The code may not be reverse engineered except where the law allows, and the content may not be scraped, bulk-downloaded or used to train or evaluate AI models. Uses the law already allows, such as fair dealing for review or news reporting, are not affected. Sharing links is welcome. The story, the design documents, the environment, the asset library, the materials and effects, and the Blueprint logic that ties the systems together are my own work, with AI assistance where noted. Third-party parts keep their own licence:
 
 - Quest and dialogue systems: two Unreal Marketplace plugins, modified and combined. Main menu, settings and save screens: an Unreal Marketplace asset, modified. These and Unreal Engine are used under Epic Games' licence terms.
 - Sprite animation: the PaperZD plugin.
